@@ -1,0 +1,18 @@
+.root {
+  @apply p-8 bg-white shadow-sm;
+}
+.title {
+  @apply text-2xl font-bold mb-6;
+}
+
+.tag + .tag {
+  @apply mt-7;
+}
+
+.tagHeader {
+  @apply text-2xl font-bold mb-4 flex space-x-3 capitalize;
+}
+
+.tagIndex {
+  @apply flex w-10 h-10 rounded-full bg-black text-white items-center justify-center text-xl;
+}

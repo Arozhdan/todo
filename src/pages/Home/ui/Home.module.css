@@ -1,0 +1,3 @@
+.page {
+  @apply container mx-auto min-h-screen flex flex-col justify-center items-center;
+}
